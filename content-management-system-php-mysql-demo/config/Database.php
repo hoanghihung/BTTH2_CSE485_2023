@@ -3,7 +3,7 @@
         private $host  = 'localhost';
         private $user  = 'root';
         private $password   = "";
-        private $database  = "phpzag_demo"; 
+        private $database  = "btth02_2"; 
         
         public function getConnection(){		
             $conn = new mysqli($this->host, $this->user, $this->password, $this->database);
