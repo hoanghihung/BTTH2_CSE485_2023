@@ -9,13 +9,21 @@ $article = new Articles($db);
 $article->id = (isset($_GET['id']) && $_GET['id']) ? $_GET['id'] : '0';
 
 $result = $article->getArticles();
-
-include('inc/header.php');
-
 ?>
-<title>phpzag.com : Demo Build Content Management System with PHP & MySQL</title>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- jQuery -->
+<title>Demo Build Content Management System with PHP & MySQL</title>
 <link href="css/style.css" rel="stylesheet" id="bootstrap-css">
-<?php include('../container.php');?>
+</head>
+<body class="">
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+	<div class="container" style="min-height:500px;">
 <div class="container">		
 	<div id="blog" class="row">     
 		<div id="blog" class="row">
@@ -47,4 +55,8 @@ include('inc/header.php');
 		
 	</div>
 </div>
-<?php include('inc/footer.php');?>
+<div class="insert-post-ads1" style="margin-top:20px;">
+</div>
+</div>
+</body>
+</html>
