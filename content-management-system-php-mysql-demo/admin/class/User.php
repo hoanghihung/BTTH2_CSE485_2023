@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 class User {	
    
@@ -48,4 +49,7 @@ class User {
 	}	
 
 }
+=======
+<?php 
+>>>>>>> c78d20130564f169b68f7dfb4e6ca887a8c60441
 ?>

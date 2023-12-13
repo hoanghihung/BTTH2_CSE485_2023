@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 include_once 'config/Database.php';
 include_once 'class/User.php';
@@ -106,3 +107,6 @@ if(!$user->loggedIn()) {
 </div>
 </body>
 </html>
+=======
+//abc
+>>>>>>> c78d20130564f169b68f7dfb4e6ca887a8c60441

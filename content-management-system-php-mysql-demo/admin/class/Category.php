@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 class Category { 
 	
@@ -16,4 +17,7 @@ class Category {
 		return $result->num_rows;	
 	}	
 }
+=======
+<?php 
+>>>>>>> c78d20130564f169b68f7dfb4e6ca887a8c60441
 ?>

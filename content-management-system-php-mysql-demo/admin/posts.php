@@ -12,6 +12,7 @@ $post = new Post($db);
 $category = new Category($db);
 
 if(!$user->loggedIn()) {
+<<<<<<< HEAD
 	header("location: login.php");
 }
 ?>
@@ -43,6 +44,20 @@ if(!$user->loggedIn()) {
   </div>
 </nav>
 
+=======
+	header("location: index.php");
+}
+include('inc/header.php');
+?>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/dataTables.bootstrap.min.js"></script>		
+<link rel="stylesheet" href="css/dataTables.bootstrap.min.css" />
+<script src="js/posts.js"></script>	
+<link href="css/style.css" rel="stylesheet" type="text/css" >  
+</head>
+<body>
+<?php include "menus.php"; ?>
+>>>>>>> c78d20130564f169b68f7dfb4e6ca887a8c60441
 <header id="header">
 	<div class="container">
 		<div class="row">
@@ -57,6 +72,10 @@ if(!$user->loggedIn()) {
 <section id="main">
 	<div class="container">
 		<div class="row">	
+<<<<<<< HEAD
+=======
+			<?php include "left_menus.php"; ?>
+>>>>>>> c78d20130564f169b68f7dfb4e6ca887a8c60441
 			<div class="col-md-9">
 				<div class="panel panel-default">
 				  <div class="panel-heading">
@@ -93,8 +112,12 @@ if(!$user->loggedIn()) {
 		</div>
 	</div>
 </section>
+<<<<<<< HEAD
 <div class="insert-post-ads1" style="margin-top:20px;">
 </div>
 </div>
 </body>
 </html>
+=======
+<?php include('inc/footer.php');?>
+>>>>>>> c78d20130564f169b68f7dfb4e6ca887a8c60441
