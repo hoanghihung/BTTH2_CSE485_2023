@@ -46,4 +46,6 @@ class User {
 		$result = $stmt->get_result();
 		return $result->num_rows;	
 	}	
+
 }
+?>

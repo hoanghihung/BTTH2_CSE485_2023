@@ -33,8 +33,6 @@ if(!empty($_POST["login"]) && $_POST["email"]!=''&& $_POST["password"]!='') {
 <title>Demo User Management System with PHP & MySQL</title>
 </head>
 <body class="">
-<div role="navigation" class="navbar navbar-default navbar-static-top">
-	<div class="container" style="min-height:500px;">
 <div class="container contact">	
 	<h2>User Management System with PHP & MySQL</h2>	
 	<div class="col-md-6">                    
@@ -59,7 +57,7 @@ if(!empty($_POST["login"]) && $_POST["email"]!=''&& $_POST["password"]!='') {
 						<div class="col-sm-12 controls">
 						  <input type="submit" name="login" value="Login" class="btn btn-info">						  
 						</div>						
-					</div>					
+					</div>	
 				</form>   
 			</div>                     
 		</div>  
